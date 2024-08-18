@@ -7,8 +7,7 @@ document.addEventListener("pointermove", (e) => {
     const body = document.querySelector("body");
     const circle = document.createElement("span");
     circle.style.left = (e.offsetX - 40)+ "px";
-    circle.style.top = (e.offsetY - 40) + "px";
-    console.log(e.target)
+    circle.style.top = (e.offsetY - 40) + "px"; 
     body.appendChild(circle);
   }
 });
