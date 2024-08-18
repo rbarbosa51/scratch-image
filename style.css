@@ -11,11 +11,13 @@ body {
   background: url(/stars.jpg);
   background-position: center;
   background-size: cover;
+  cursor: grab;
 }
 span {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  cursor: grabbing;
   background: url(/img.jpg);
   background-position: center;
   background-attachment: fixed;
